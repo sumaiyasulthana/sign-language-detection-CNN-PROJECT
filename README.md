@@ -103,7 +103,7 @@
 
 7.matplotlib.pyplot
 
-**Domain:**Deep Learning.
+**Domain:** Deep Learning.
 
  
 
