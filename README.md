@@ -1,26 +1,32 @@
 # sign-language-detection-CNN-PROJECT
 
 **LinkedIn :** https://www.linkedin.com/in/sumaiya-sulthana-906876137
+
 **Output Video** Link:https://drive.google.com/file/d/1s8ur3e-6bNpeHfHMamODzunty5OcDzrL/view?usp=drive_link
 
 **Objective:**
         The primary goal of this project is to create a Deep learning model capable of identifying Sign Language letters from hand gesture images. This involves building, training, and evaluating both Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN), and leveraging transfer learning with VGG16.
 
+**Use Cases:**
+        Sign language detection using Convolutional Neural Networks (CNN) can revolutionize communication for individuals who are deaf or hard of hearing. By creating a system that translates sign language into text or spoken words in real-time, businesses can significantly enhance accessibility and inclusivity. This technology can be integrated into various applications such as customer service, healthcare, education, and more.
+        
 **Dataset Explanation:**
 
    **Source:** The dataset consists of hand gesture images representing SL letters.
    
    **Classes:** 24 classes (A-I, K-Y), excluding J and Z due to their motion requirements.Each training and test case
-              represents a label (0-25) as a one-to-one map for each alphabetic letter A-Z (and no cases for 9=J or 25=Z because of 
-              gesture motions).
+     represents a label (0-25) as a one-to-one map for each alphabetic letter A-Z (and no cases for 9=J or 25=Z because of gesture 
+     motions).
              
    **Format:** Similar to the MNIST dataset, with 28x28 grayscale images.
    
    **Size of dataset:** Training set: 27,455 images,
                         Test set: 7,172 images
+                        
 **Steps involved:**    
 
 **Data Preprocessing:**
+
 1.**Normalization:** Pixel values are normalized to the range [0, 1].by dividing 255
 
 2.**Reshaping:** Images are reshaped to (28, 28, 1) for ANN/CNN models and resized to (128, 128, 3) **for VGG16**.
@@ -84,12 +90,20 @@
 **REQUIRED LIBRARIES**:
 
 1.Scikit-learn
+
 2.TensorFlow---Keras
+
 3.Opencv (computer vision)
+
 4.numpy
+
 5.pandas
+
 6.seaborn
+
 7.matplotlib.pyplot
+
+**Domain:**Deep Learning.
 
  
 
