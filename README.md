@@ -2,8 +2,6 @@
 
 **LinkedIn :** https://www.linkedin.com/in/sumaiya-sulthana-906876137
 
-**Output Video** Link:https://drive.google.com/file/d/1s8ur3e-6bNpeHfHMamODzunty5OcDzrL/view?usp=drive_link
-
 **Objective:**
         The primary goal of this project is to create a Deep learning model capable of identifying Sign Language letters from hand gesture images. This involves building, training, and evaluating both Artificial Neural Networks (ANN) and Convolutional Neural Networks (CNN), and leveraging transfer learning with VGG16.
 
