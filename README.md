@@ -70,7 +70,7 @@
 **Model Training:**
 **Epochs:** Adjusted based on performance and early stopping.
 
-**Early Stopping:** Monitored validation loss with a patience of 10 epochs and a min_delta of 0.001.
+**Early Stopping:** Monitored validation loss with a patience of 10 epochs and a min_delta of 0.001.(Accured 98%)
         
 **Model Evaluation:**
 **Metrics:** Accuracy, Precision, Recall, F1-Score, Confusion Matrix
