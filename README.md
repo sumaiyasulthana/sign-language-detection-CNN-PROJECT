@@ -28,7 +28,7 @@
 1.**Normalization:** Pixel values are normalized to the range [0, 1].by dividing 255
 
 2.**Reshaping:** Images are reshaped to (28, 28, 1) for ANN/CNN models and resized to (128, 128, 3) **for VGG16**.
-                And changed grayscale channel to to RGB.
+                And changed grayscale channel to RGB.
                
 3.**One-Hot Encoding:** Labels are one-hot encoded for training.(25 Labels)
        
